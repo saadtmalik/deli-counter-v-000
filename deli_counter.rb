@@ -8,8 +8,8 @@ def line(array)
     array.each_with_index do |name, index|
       line_position += "#{index.to_i+1} #{name}."
     end
-    puts "#{line_position}"
-    binding.pry
+    binding.pryputs
+    "#{line_position}"
   end
 end
 
