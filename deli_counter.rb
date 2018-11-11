@@ -1,10 +1,8 @@
 def take_a_number(katz_deli, name)
   name.each do |position|
-
-
+  end
 end
 
-require 'pry'
 
 def line(array)
   if array.length == 0
