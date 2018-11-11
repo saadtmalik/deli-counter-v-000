@@ -10,7 +10,7 @@ def line(array)
     puts "This line is currently empty."
   elsif
     line_position =  "The line is currently:"
-    array.each_with_index do |element, index|
+    array.each_with_index do |name, index|
       line_position += "#{index.tp_i+1} #{element}."
     end
     puts "#{line_position}"
