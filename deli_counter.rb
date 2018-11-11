@@ -10,6 +10,12 @@ def line(array)
     end
     puts "#{line_position}"
   end
-  binding.pry
 end
+
+binding.pry
 # line method shows everyones current place in line or says "this line is empty
+
+def take_a_number(katz_deli, name)
+  name.each do |position|
+  end
+end
