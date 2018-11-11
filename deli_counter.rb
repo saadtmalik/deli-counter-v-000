@@ -9,10 +9,10 @@ def line(array)
       line_position += "#{index.to_i+1} #{name}."
     end
     puts "#{line_position}"
+    binding.pry
   end
 end
 
-binding.pry
 # line method shows everyones current place in line or says "this line is empty
 
 def take_a_number(katz_deli, name)
