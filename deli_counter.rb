@@ -4,6 +4,8 @@ def take_a_number(katz_deli, name)
 
 end
 
+require 'pry'
+
 def line(array)
   if array.length == 0
     puts "This line is currently empty."
@@ -14,6 +16,7 @@ def line(array)
     end
     puts "#{line_position}"
   end
+  binding.pry
 end
 # line method shows everyones current place in line or says "this line is empty"
 
