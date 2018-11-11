@@ -1,14 +1,16 @@
+def take_a_number(katz_deli, name)
+
+end
+
 def line(katz_deli)
   if katz_deli = []
     puts "This line is currently empty."
   elsif katz_deli != []
-    return "The"
+    visit
   end
 end
 
-def take_a_number(katz_deli, name)
-
-end
+# line method shows everyones current place in line or says "this line is empty"
 
 def now_serving(katz_deli)
 
