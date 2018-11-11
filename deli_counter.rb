@@ -1,10 +1,5 @@
 require 'pry'
 
-def take_a_number(katz_deli, name)
-  name.each do |position|
-  end
-end
-
 def line(array)
   if array.length == 0
     puts "This line is currently empty."
@@ -17,9 +12,4 @@ def line(array)
   end
   binding.pry
 end
-# line method shows everyones current place in line or says "this line is empty"
-
-
-def now_serving(katz_deli)
-
-end
+# line method shows everyones current place in line or says "this line is empty
