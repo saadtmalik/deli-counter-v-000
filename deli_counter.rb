@@ -1,8 +1,8 @@
 def line(katz_deli)
   if katz_deli = []
-    return "This line is currently empty."
+    puts "This line is currently empty."
   elsif katz_deli != []
-    return blank
+    return "The"
   end
 end
 
