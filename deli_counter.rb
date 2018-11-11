@@ -1,21 +1,20 @@
 def take_a_number(katz_deli, name)
   name.each do |position|
-    
+
 
 end
 
 def line(array)
   if array.length == 0
     puts "This line is currently empty."
-  elsif 
-    return "The line is currently:"
-    array.each_with_index do |value, index|
-      
-  
-      
+  elsif
+    line_position =  "The line is currently:"
+    array.each_with_index do |element, index|
+      line_positin += "#{index+1} #{name}."
+    end
+    puts "#{line_position}"
   end
 end
-
 # line method shows everyones current place in line or says "this line is empty"
 
 
