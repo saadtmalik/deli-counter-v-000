@@ -11,7 +11,7 @@ def line(array)
   elsif
     line_position =  "The line is currently:"
     array.each_with_index do |element, index|
-      line_position += "#{index+1} #{name}."
+      line_position += "#{index.tp_i+1} #{element}."
     end
     puts "#{line_position}"
   end
