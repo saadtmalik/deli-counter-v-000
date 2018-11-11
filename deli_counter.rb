@@ -3,6 +3,7 @@ def take_a_number(katz_deli, name)
   end
 end
 
+require 'pry'
 
 def line(array)
   if array.length == 0
